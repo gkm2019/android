@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/image_professor"
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_logo"
+                android:scaleType="fitCenter"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:layout_toRightOf="@+id/image_professor"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:text="교수명"
+                android:textColor="#000000"
+                android:id="@+id/text_professorName_"
+                android:layout_marginBottom="5dp"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_toRightOf="@+id/text_professorName_"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:text="교수명"
+                android:textColor="#000000"
+                android:id="@+id/text_professorName"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_toRightOf="@+id/image_professor"
+                android:layout_below="@+id/text_professorName"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:textColor="#737373"
+                android:text="소속학과"
+                android:id="@+id/text_professorDepartment_"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/joseonilbomyeongjo"/>
+            <TextView
+                android:layout_toRightOf="@+id/text_professorDepartment_"
+                android:layout_below="@+id/text_professorName"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:textColor="#737373"
+                android:text="소속학과"
+                android:id="@+id/text_professorDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/joseonilbomyeongjo"/>
+
+
+            <TextView
+                android:layout_toRightOf="@+id/image_professor"
+                android:layout_below="@+id/text_professorDepartment"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:textColor="#737373"
+                android:text="전공분야"
+                android:id="@+id/text_professorField_"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/joseonilbomyeongjo"/>
+
+            <TextView
+                android:layout_toRightOf="@+id/text_professorField_"
+                android:layout_below="@+id/text_professorDepartment"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:textColor="#737373"
+                android:text="전공분야"
+                android:id="@+id/text_professorField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/joseonilbomyeongjo"/>
+
+            <TextView
+                android:layout_toRightOf="@+id/image_professor"
+                android:layout_below="@+id/text_professorField"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:textColor="#737373"
+                android:text="연락처"
+                android:id="@+id/text_professorTell_"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/joseonilbomyeongjo"/>
+            <TextView
+                android:layout_toRightOf="@+id/text_professorTell_"
+                android:layout_below="@+id/text_professorField"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:textColor="#737373"
+                android:text="연락처"
+                android:id="@+id/text_professorTell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/joseonilbomyeongjo"/>
+
+            <TextView
+                android:layout_toRightOf="@+id/image_professor"
+                android:layout_below="@+id/text_professorTell"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:textColor="#737373"
+                android:text="연구실 위치"
+                android:id="@+id/text_professorAddr_"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/joseonilbomyeongjo"/>
+            <TextView
+                android:layout_toRightOf="@+id/text_professorAddr_"
+                android:layout_below="@+id/text_professorTell"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:textColor="#737373"
+                android:text="연구실 위치"
+                android:id="@+id/text_professorAddr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/joseonilbomyeongjo"/>
+            <TextView
+                android:layout_toRightOf="@+id/image_professor"
+                android:layout_below="@+id/text_professorAddr"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:textColor="#737373"
+                android:text="이메일"
+                android:id="@+id/text_professorEmail_"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/joseonilbomyeongjo"/>
+            <TextView
+                android:layout_toRightOf="@+id/text_professorEmail_"
+                android:layout_below="@+id/text_professorAddr"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:textColor="#737373"
+                android:text="이메일"
+                android:id="@+id/text_professorEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/joseonilbomyeongjo"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_div"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#333333" />
+    </LinearLayout>
+
+
+</RelativeLayout>
