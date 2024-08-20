@@ -1,3 +1,4 @@
-# android
-안드로이드 서비스 개발 입니다.
-(아직 정리 하지 못했습니다. 추후 readme정리 예정)
+# Kkobugi
+OS-based Autonomous Navigation Robot Project
+
+This project involves developing an autonomous navigation robot using the Robot Operating System (ROS). The robot is designed to guide users to their desired destinations within a specific environment, such as an office building or a shopping mall.
